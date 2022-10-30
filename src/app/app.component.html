@@ -1,10 +1,30 @@
-<div class="toolbar" role="banner" style="display: flex;">
+<mat-grid-list cols="3" rowHeight="2:1">
+  <mat-grid-tile>
+    <img src="../assets/MainPhoto.jpg" class="company"
+      style="height: 200px; width: 200px; margin: 1rem 0rem 0rem 1rem;">
 
-  <img src="../assets/MainPhoto.jpg" class="company" style="height: 200px; width: 200px; margin: 1rem 0rem 0rem 1rem ">
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <div>
+      <span class="heading">Vishal Vivek Raut</span>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <mat-grid-tile-header>Social Media Profiles</mat-grid-tile-header>
+    <a href="https://www.linkedin.com/in/vishal-raut-5917b2110/ " target="_blank"><img src="../assets/LogoLinkedIn.png" class="logo"></a>
+    <a href="https://www.facebook.com/vishal.raut.5686" target="_blank"><img src="../assets/LogoFacebook.png" class="logo"></a>
+    <a href="https://www.instagram.com/vishalraut_/" target="_blank"><img src="../assets/LogoInstagram.png" class="logo"></a>
+  </mat-grid-tile>
 
-  <div style="margin: 2rem 0rem 0rem 22rem">
-    <span class="heading">Vishal Vivek Raut</span>
-  </div>
+</mat-grid-list>
+<div style="margin-top:5px"></div>
+<mat-grid-list cols="4">
+  <mat-grid-tile>
+    <mat-grid-tile-header>About Me</mat-grid-tile-header>
+  </mat-grid-tile>
+  <mat-grid-tile>6</mat-grid-tile>
+  <mat-grid-tile>7</mat-grid-tile>
+  <mat-grid-tile>8</mat-grid-tile>
+</mat-grid-list>
 
-
-  <router-outlet></router-outlet>
+<router-outlet></router-outlet>
